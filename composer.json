@@ -14,7 +14,8 @@
         "apigen/apigen" : "v4.1.2",
 		"phpunit/phpunit" : "6.5.8",
         "squizlabs/php_codesniffer" : "3.2.3",
-		"kzykhys/php-csv-parser" : "1.4.1"
+		"kzykhys/php-csv-parser" : "1.4.1",
+		"phpbench/phpbench": "@dev"
         },
 	"autoload" : {
 		"psr-4" : {
@@ -31,4 +32,3 @@
 		}
 	}
 }
-
