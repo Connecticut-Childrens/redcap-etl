@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<phpbench xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.15-dev (@git_version@)">
+  <suite tag="" context="" date="2018-07-11T13:04:57-07:00" config-path="/home/abhmalat/PhpstormProjects/redcap-etl/phpbench.json" uuid="133eee79fe97a4568f160388199074f5698a6316">
+    <env>
+      <uname os="Linux" host="ubuntu" release="4.15.0-24-generic" version="#26-Ubuntu SMP Wed Jun 13 08:44:47 UTC 2018" machine="x86_64"/>
+      <php xdebug="" version="7.2.7-0ubuntu0.18.04.2" ini="/etc/php/7.2/cli/php.ini" extensions="Core, date, libxml, openssl, pcre, zlib, filter, hash, pcntl, Reflection, SPL, sodium, session, standard, json, xhprof, mysqlnd, PDO, xml, calendar, ctype, curl, dom, mbstring, fileinfo, ftp, gettext, iconv, mongodb, exif, mysqli, pdo_mysql, pdo_sqlite, Phar, posix, readline, shmop, SimpleXML, sockets, sqlite3, sysvmsg, sysvsem, sysvshm, tokenizer, wddx, xmlreader, xmlwriter, xsl, Zend OPcache"/>
+      <opcache extension_loaded="1" enabled=""/>
+      <unix-sysload l1="0.15" l5="0.15" l15="0.17"/>
+      <vcs system="git" branch="abhmalat_dev" version="d4198a49ab4069b605e21f43c30548be71a70cdc"/>
+      <baseline nothing="0.011920928955078" md5="0.27608871459961" file_rw="2.1970272064209"/>
+    </env>
+    <benchmark class="\RedcapEtlBench">
+      <subject name="benchConsume">
+        <executor name="microtime">
+          <parameter name="php_config" type="collection"/>
+          <parameter name="executor" value="microtime"/>
+        </executor>
+        <variant sleep="0" output-time-unit="microseconds" output-time-precision="" output-mode="time" revs="1" warmup="0" retry-threshold="">
+          <errors>
+            <error exception-class="RuntimeException" code="0" file="/home/abhmalat/PhpstormProjects/redcap-etl/vendor/phpbench/phpbench/lib/Benchmark/Executor/MicrotimeExecutor.php" line="42">Benchmark made some noise: Test this</error>
+          </errors>
+        </variant>
+      </subject>
+    </benchmark>
+  </suite>
+</phpbench>

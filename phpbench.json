@@ -1,0 +1,17 @@
+{
+    "bootstrap": "vendor/autoload.php",
+    "reports": {
+        "my_report": {
+            "extends": "aggregate",
+            "exclude": ["benchmark"]
+
+        }
+    },
+    "outputs": {
+        "my_output" : {
+            "extends": "html",
+            "file": "my_report.html",
+            "title": "Abhi's output"
+        }
+    }
+}

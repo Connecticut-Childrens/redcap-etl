@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught IU\PHPCap\PhpCapException: JSON error (4) "Syntax error" in REDCap API output.
+The first 1,000 characters of output returned from REDCap are:
+Your IP address (149.166.144.164) has been banned due to suspected abuse. in /home/abhmalat/PhpstormProjects/redcap-etl/dependencies/phpcap/phpcap/src/ErrorHandler.php:25
+Stack trace:
+#0 /home/abhmalat/PhpstormProjects/redcap-etl/dependencies/phpcap/phpcap/src/RedCapProject.php(2159): IU\PHPCap\ErrorHandler->throwException('JSON error (4) ...', 8)
+#1 /home/abhmalat/PhpstormProjects/redcap-etl/dependencies/phpcap/phpcap/src/RedCapProject.php(753): IU\PHPCap\RedCapProject->processExportResult('Your IP address...', 'php')
+#2 /home/abhmalat/PhpstormProjects/redcap-etl/dependencies/phpcap/phpcap/src/RedCapProject.php(1788): IU\PHPCap\RedCapProject->exportMetadata()
+#3 /home/abhmalat/PhpstormProjects/redcap-etl/src/SchemaGenerator.php(64): IU\PHPCap\RedCapProject->getRecordIdFieldName()
+#4 /home/abhmalat/PhpstormProjects/redcap-etl/src/RedCapEtl.php(213): IU\REDCapET in /home/abhmalat/PhpstormProjects/redcap-etl/dependencies/phpcap/phpcap/src/ErrorHandler.php on line 25
