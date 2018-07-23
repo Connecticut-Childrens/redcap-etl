@@ -19,71 +19,65 @@ use IU\REDCapETL\EtlException;
 use IU\REDCapETL\Version;
 use IU\REDCapETL\Logger;
 
-class RedcapEtlBench
+/**
+ * @BeforeMethods({"init"})
+ * @AfterMethods({"destroy"})
+ * @OutputTimeUnit("seconds", precision=3)
+ */
+class benchmarks_redcap_etl
 {
+    private $app;
+    private $logger;
+
+    public function init() {
+        $this->app = basename(__FILE__, '.php');
+        $this->logger = new Logger($this->app);
+
+        $this->logger->setPrintInfo(false);
+    }
+
+    public function destroy() {
+        unset($this->app);
+        unset($this->logger);
+    }
+
     /**
-     * @Revs(1)
-     * @Iterations(1)
+     * @return Generator
      */
-    public function benchMetrics_classicNonRepeating()
-    {
-        $app = basename(__FILE__, '.php');
-        $logger = new Logger($app);
+    public function batchSizes() {
+        yield ['batchSize' => '100'];
+        yield ['batchSize' => '500'];
+        yield ['batchSize' => '1000'];
+        yield ['batchSize' => '1500'];
+        yield ['batchSize' => '2000'];
+        yield ['batchSize' => '5000'];
+    }
 
-        $logger->setPrintInfo(false);
-
-        $configFile = 'config/classic.ini';
-
-        try {
-            $redCapEtl = new RedCapEtl($logger, $configFile);
-            $redCapEtl->run();
-        } catch (EtlException $exception) {
-            $logger->logException($exception);
-            $logger->logError('Processing failed.');
-        }
+    /**
+     * @return Generator
+     */
+    public function configFiles() {
+        yield ['configFile' => 'metricsClassicNonRepeating.ini'];
+        yield ['configFile' => 'metricsClassicRepeating.ini'];
+        yield ['configFile' => 'metricsRepeatingEvents.ini'];
     }
 
     /**
      * @Revs(1)
      * @Iterations(1)
+     * @ParamProviders({"batchSizes", "configFiles"})
+     * @Sleep(10000000)
      */
-    public function benchMetrics_classicRepeating()
-    {
-        $app = basename(__FILE__, '.php');
-        $logger = new Logger($app);
-
-        $logger->setPrintInfo(false);
-
-        $configFile = 'config/classic.ini';
+    public function bench_main($params) {
+        $configFile = 'config/'. $params['configFile'];
 
         try {
-            $redCapEtl = new RedCapEtl($logger, $configFile);
+            $redCapEtl = new RedCapEtl($this->logger, $configFile);
+            $redCapEtl->getConfiguration()->setBatchSize($params['batchSize']);
             $redCapEtl->run();
         } catch (EtlException $exception) {
-            $logger->logException($exception);
-            $logger->logError('Processing failed.');
-        }
-    }
-
-    /**
-     * @Revs(1)
-     * @Iterations(1)
-     */
-    public function benchMetrics_repeatingEvents()
-    {
-        $app = basename(__FILE__, '.php');
-        $logger = new Logger($app);
-
-        $logger->setPrintInfo(false);
-
-        $configFile = 'config/classic.ini';
-
-        try {
-            $redCapEtl = new RedCapEtl($logger, $configFile);
-            $redCapEtl->run();
-        } catch (EtlException $exception) {
-            $logger->logException($exception);
-            $logger->logError('Processing failed.');
+            $this->logger->logException($exception);
+            $this->logger->logError('Processing failed.');
         }
     }
 }
