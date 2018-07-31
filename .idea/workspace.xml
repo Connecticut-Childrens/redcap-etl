@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4689242-d185-4b18-855d-07afedaceeb8" name="Default" comment="" />
+    <list default="true" id="f4689242-d185-4b18-855d-07afedaceeb8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmarks/jmeter_error.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmarks/jmeter_results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/benchmarks_redcap_etl.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/benchmarks_redcap_etl.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,34 +18,50 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-191941891">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ini" value="16" />
+          <entry key="php" value="4" />
+          <entry key="txt" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Ini" value="16" />
+          <entry key="PHP" value="4" />
+          <entry key="PLAIN_TEXT" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="15" />
+          <entry key="txt" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="15" />
+          <entry key="PLAIN_TEXT" value="74" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="benchmarks_redcap_etl.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/benchmarks_redcap_etl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedCapEtl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RedCapEtl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="274" column="64" lean-forward="true" selection-start-line="274" selection-start-column="64" selection-end-line="274" selection-end-column="64" />
-              <folding>
-                <element signature="e#33#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigProperties.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ConfigProperties.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2142">
-              <caret line="119" column="17" lean-forward="true" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+            <state relative-caret-position="339">
+              <caret line="70" column="63" lean-forward="true" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -76,11 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/EtlRedCapProject.php" />
-        <option value="$PROJECT_DIR$/config/ri_classic.ini" />
-        <option value="$PROJECT_DIR$/config/classic_rules" />
-        <option value="$PROJECT_DIR$/config/classic.ini" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/unit/Schema/TableTest.php" />
         <option value="$PROJECT_DIR$/config/jim_rules" />
         <option value="$PROJECT_DIR$/docs/TransformationRulesGuide.md" />
@@ -102,9 +119,35 @@
         <option value="$PROJECT_DIR$/bin/redcap_etl.php" />
         <option value="$PROJECT_DIR$/config/jim.ini" />
         <option value="$PROJECT_DIR$/phpbench.json" />
+        <option value="$PROJECT_DIR$/config/rules_classicNonRepeating" />
+        <option value="$PROJECT_DIR$/config/rules_repeatingEvents" />
+        <option value="$PROJECT_DIR$/config/rules_classicRepeating" />
+        <option value="$PROJECT_DIR$/bin/upload_data.php" />
         <option value="$PROJECT_DIR$/config/metricsClassicNonRepeating.ini" />
-        <option value="$PROJECT_DIR$/config/metricsRepeatingEvents.ini" />
+        <option value="$PROJECT_DIR$/config/metricsClassicNonRepeating_4.ini" />
+        <option value="$PROJECT_DIR$/config/metricsClassicNonRepeating_5.ini" />
+        <option value="$PROJECT_DIR$/config/metricsClassicNonRepeating_3.ini" />
+        <option value="$PROJECT_DIR$/config/metricsClassicNonRepeating_2.ini" />
         <option value="$PROJECT_DIR$/config/metricsClassicRepeating.ini" />
+        <option value="$PROJECT_DIR$/config/metricsClassicRepeating_2.ini" />
+        <option value="$PROJECT_DIR$/config/metricsClassicRepeating_3.ini" />
+        <option value="$PROJECT_DIR$/config/metricsClassicRepeating_4.ini" />
+        <option value="$PROJECT_DIR$/config/metricsClassicRepeating_5.ini" />
+        <option value="$PROJECT_DIR$/config/metricsRepeatingEvents.ini" />
+        <option value="$PROJECT_DIR$/config/metricsRepeatingEvents_2.ini" />
+        <option value="$PROJECT_DIR$/config/metricsRepeatingEvents_3.ini" />
+        <option value="$PROJECT_DIR$/config/metricsRepeatingEvents_4.ini" />
+        <option value="$PROJECT_DIR$/config/metricsRepeatingEvents_5.ini" />
+        <option value="$PROJECT_DIR$/config/rules/r1_rules.txt" />
+        <option value="$PROJECT_DIR$/config/rules/r2_rules.txt" />
+        <option value="$PROJECT_DIR$/config/rules/r3_rules.txt" />
+        <option value="$PROJECT_DIR$/config/rules/r4_rules.txt" />
+        <option value="$PROJECT_DIR$/config/rules/r5_rules.txt" />
+        <option value="$PROJECT_DIR$/config/rules/cnr1_rules.txt" />
+        <option value="$PROJECT_DIR$/config/rules/cnr3_rules.txt" />
+        <option value="$PROJECT_DIR$/config/rules/cnr2_rules.txt" />
+        <option value="$PROJECT_DIR$/config/rules/cnr4_rules.txt" />
+        <option value="$PROJECT_DIR$/config/rules/cnr5_rules.txt" />
         <option value="$PROJECT_DIR$/bin/benchmarks_redcap_etl.php" />
       </list>
     </option>
@@ -114,9 +157,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="PhpDebugGeneral" hide_empty_superglobals="false" />
   <component name="PhpServers">
@@ -206,13 +246,13 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="67" />
-    <option name="y" value="91" />
-    <option name="width" value="1771" />
-    <option name="height" value="893" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="262" />
+    <option name="y" value="75" />
+    <option name="width" value="1352" />
+    <option name="height" value="738" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -232,21 +272,54 @@
               <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="redcap-etl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redcap-etl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="rules" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="redcap-etl" type="cbb8eebc:String" user="redcap-etl" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="redcap-etl" type="cbb8eebc:String" user="redcap-etl" />
+              <item name="bin" type="cbb8eebc:String" user="bin" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="redcap-etl" type="cbb8eebc:String" user="redcap-etl" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="batch_size&#9;null&#9;null&#10;printInfo&#9;null&#9;null&#10;new Table(&#9;null&#9;null&#10;rowsSuffixes&#9;null&#9;null&#10;redcap_repeat_instance&#9;null&#9;null&#10;isL&#9;null&#9;null&#10;REPEATING_INSTRUMENTS&#9;null&#9;null&#10;new EtlRedCapProject&#9;null&#9;null&#10;islongitudinal&#9;null&#9;null&#10;isLongi&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="batchSize&#9;null&#9;null&#10;batch_size&#9;null&#9;null&#10;printInfo&#9;null&#9;null&#10;new Table(&#9;null&#9;null&#10;rowsSuffixes&#9;null&#9;null&#10;redcap_repeat_instance&#9;null&#9;null&#10;isL&#9;null&#9;null&#10;REPEATING_INSTRUMENTS&#9;null&#9;null&#10;new EtlRedCapProject&#9;null&#9;null&#10;islongitudinal&#9;null&#9;null&#10;isLongi&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/tmp/cachegrind.out.23137" />
-    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data-generator" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
+      <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
@@ -262,31 +335,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.classic">
-    <configuration name="Table.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/redcap-etl/Schema/Table.php" />
+  <component name="RunManager" selected="PHP Script.m2_classicRepeating">
+    <configuration name="Table.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/redcap-etl/Schema/Table.php">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/redcap_etl.php" scriptParameters="-c config/.ini">
       <CommandLine workingDirectory="$PROJECT_DIR$/" />
       <option name="workingDirectory" value="$PROJECT_DIR$/" />
+      <method v="2" />
     </configuration>
     <configuration name="classic" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/redcap_etl.php" scriptParameters="-c config/classic.ini">
       <CommandLine workingDirectory="$PROJECT_DIR$/" />
       <option name="workingDirectory" value="$PROJECT_DIR$/" />
+      <method v="2" />
     </configuration>
     <configuration name="jim" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/redcap_etl.php" scriptParameters="-c config/jim.ini">
       <CommandLine workingDirectory="$PROJECT_DIR$/" />
       <option name="workingDirectory" value="$PROJECT_DIR$/" />
+      <method v="2" />
     </configuration>
     <configuration name="longitudinal" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/redcap_etl.php" scriptParameters="-c config/longitudinal.ini">
       <CommandLine workingDirectory="$PROJECT_DIR$/" />
       <option name="workingDirectory" value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="m2_classicRepeating" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/redcap_etl.php" scriptParameters="-c config/metricsClassicRepeating.ini">
+      <CommandLine workingDirectory="$PROJECT_DIR$/" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="m3_repeatingEvents" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/redcap_etl.php" scriptParameters="-c config/metricsRepeatingEvents.ini">
+      <CommandLine workingDirectory="$PROJECT_DIR$/" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/" />
+      <method v="2" />
     </configuration>
     <configuration name="repeating" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/redcap_etl.php" scriptParameters="-c config/repeating.ini">
       <CommandLine workingDirectory="$PROJECT_DIR$/" />
       <option name="workingDirectory" value="$PROJECT_DIR$/" />
+      <method v="2" />
     </configuration>
     <configuration name="ri_classic" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/redcap_etl.php" scriptParameters="-c config/ri_classic.ini">
       <CommandLine workingDirectory="$PROJECT_DIR$/" />
       <option name="workingDirectory" value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upload_data.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/bin/upload_data.php" scriptParameters="-c config/.ini">
+      <CommandLine workingDirectory="$PROJECT_DIR$/" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="PHP Script.classic" />
@@ -294,11 +390,14 @@
       <item itemvalue="PHP Script.ri_classic" />
       <item itemvalue="PHP Script.longitudinal" />
       <item itemvalue="PHP Script.jim" />
+      <item itemvalue="PHP Script.m2_classicRepeating" />
+      <item itemvalue="PHP Script.m3_repeatingEvents" />
       <item itemvalue="JavaScript Debug.Table.php" />
+      <item itemvalue="PHP Script.upload_data.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Table.php" />
+        <item itemvalue="PHP Script.upload_data.php" />
         <item itemvalue="JavaScript Debug.Table.php" />
         <item itemvalue="JavaScript Debug.Table.php" />
         <item itemvalue="JavaScript Debug.Table.php" />
@@ -339,7 +438,15 @@
       <workItem from="1531337057385" duration="10260000" />
       <workItem from="1531769378766" duration="2307000" />
       <workItem from="1531926095129" duration="3548000" />
-      <workItem from="1531941045476" duration="1306000" />
+      <workItem from="1531941045476" duration="5119000" />
+      <workItem from="1532006850325" duration="20927000" />
+      <workItem from="1532375385063" duration="820000" />
+      <workItem from="1532530491612" duration="1210000" />
+      <workItem from="1532531705681" duration="53000" />
+      <workItem from="1532549643789" duration="3298000" />
+      <workItem from="1532614836382" duration="685000" />
+      <workItem from="1532642119914" duration="6535000" />
+      <workItem from="1532698252089" duration="8438000" />
     </task>
     <task id="LOCAL-00001" summary="For EVENTS rowtype, create row only if redcap_event_name exists, and redcap_repeat_instrument and redcap_repeat_instance do not exist in the row">
       <created>1527184833743</created>
@@ -485,33 +592,54 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241327000" />
+    <option name="totallyTimeSpent" value="287106000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="91" width="1771" height="893" extended-state="1" />
-    <editor active="true" />
+    <frame x="262" y="75" width="1352" height="738" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18125352" />
-      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.237366" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="Event Log" order="6" sideWeight="0.610374" side_tool="true" weight="0.2645414" />
-      <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3290398" />
-      <window_info anchor="right" id="Run" order="5" sideWeight="0.41762453" side_tool="true" weight="0.2642575" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" x="626" y="320" width="776" height="422" id="Debug" order="4" sideWeight="0.58237547" weight="0.2642575" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3290398" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3290398" />
+      <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3290398" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3290398" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" x="626" y="320" width="776" height="422" id="Debug" order="4" sideWeight="0.5798212" weight="0.2642575" />
+      <window_info anchor="right" id="Run" order="5" sideWeight="0.4201788" side_tool="true" weight="0.32497492" />
+      <window_info anchor="right" id="Event Log" order="6" sideWeight="0.610374" side_tool="true" weight="0.2645414" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18125352" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3290398" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3290398" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3290398" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" x="626" y="320" width="776" height="422" id="Debug" order="4" sideWeight="0.5798212" weight="0.2642575" />
+      <window_info anchor="right" id="Run" order="5" sideWeight="0.4201788" side_tool="true" visible="true" weight="0.2642575" />
+      <window_info anchor="right" id="Event Log" order="6" sideWeight="0.610374" side_tool="true" weight="0.2645414" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -555,11 +683,15 @@
           <line>351</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Database/MysqlDbConnection.php</url>
+          <line>84</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="109" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -617,6 +749,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>$table-&gt;getAllFields()</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>array(RulesParser::ROOT)</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -656,275 +793,11 @@
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>$table-&gt;primary</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/unit/Schema/TableTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Schema/Row.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rules/FieldRule.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EtlRedCapProject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies/phpcap/phpcap/src/RedCapProject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="754" selection-start-line="754" selection-end-line="754" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/ExampleClassic.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="105" column="36" lean-forward="true" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/TransformationRulesGuide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="19">
-            <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/classic_rules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/InstallationGuide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/ExampleLongitudinal.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="467">
-            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/MysqlDbConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="346" selection-start-line="346" selection-end-line="346" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rules/TableRule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RulesGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Schema/FieldType.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rules/Rules.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Schema/FieldTypeSpecifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rules/Rule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/DbConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Schema/RowsType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies/phpcap/phpcap/src/RedCapApiConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="878" selection-start-line="878" selection-end-line="878" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Schema/Schema.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpcap/phpcap/src/RedCapProject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21777" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Version.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RulesParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="257" lean-forward="true" selection-start-line="257" selection-end-line="257" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/config/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LookupTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/longitudinal_rules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/ri_classic_rules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SchemaGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9218">
-          <caret line="425" column="37" selection-start-line="425" selection-start-column="37" selection-end-line="425" selection-end-column="37" />
-          <folding>
-            <element signature="e#32#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/repeating_rules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///etc/php/7.2/cli/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15776">
-          <caret line="42" column="78" lean-forward="true" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///tmp/cachegrind.out.19376" />
-    <entry file="file:///tmp/cachegrind.out.23137" />
-    <entry file="file://$PROJECT_DIR$/src/Schema/Field.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Schema/Table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/redcap_det_handler.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/jim_rules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/jim.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phpbench.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -947,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -961,48 +827,305 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/metricsClassicNonRepeating.ini">
+    <entry file="file://$PROJECT_DIR$/src/ConfigProperties.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/metricsClassicRepeating.ini">
+    <entry file="file://$PROJECT_DIR$/src/Database/MysqlDbConnection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="217">
+          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/metricsRepeatingEvents.ini">
+    <entry file="file://$PROJECT_DIR$/config/rr_rules">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/jim.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="198">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/benchmarks_redcap_etl.php">
+    <entry file="file://$PROJECT_DIR$/config/jim_rules">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules_repeatingEvents">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1854">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies/phpcap/phpcap/src/RedCapProject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/upload_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpcap/phpcap/src/RedCapProject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RedCapEtl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="274" column="64" lean-forward="true" selection-start-line="274" selection-start-column="64" selection-end-line="274" selection-end-column="64" />
-          <folding>
-            <element signature="e#33#63#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="5" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfigProperties.php">
+    <entry file="file://$PROJECT_DIR$/config/rules_classicNonRepeating">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="119" column="17" lean-forward="true" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules_classicRepeating">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/r5_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicNonRepeating.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicNonRepeating_2.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicNonRepeating_3.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicNonRepeating_4.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicNonRepeating_5.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicRepeating.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicRepeating_4.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicRepeating_3.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsRepeatingEvents.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsRepeatingEvents_2.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsRepeatingEvents_5.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsRepeatingEvents_4.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsRepeatingEvents_3.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicRepeating_2.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicRepeating_5.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/r1_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/r2_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/r3_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/r4_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cnr1_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cr5_rules.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cnr2_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cnr3_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cnr4_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cnr5_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cr1_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cr2_rules.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cr3_rules.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rules/cr4_rules.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/test_etl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/benchmarks_redcap_etl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="70" column="63" lean-forward="true" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
         </state>
       </provider>
     </entry>

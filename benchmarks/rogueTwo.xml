@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<phpbench xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.15-dev (@git_version@)">
+  <suite tag="" context="" date="2018-07-27T19:05:59-07:00" config-path="/home/abhmalat/PhpstormProjects/redcap-etl/phpbench.json" uuid="133eef7dc51aea2b208628ba83f3fe907b3c8bf3">
+    <env>
+      <uname os="Linux" host="ubuntu" release="4.15.0-29-generic" version="#31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018" machine="x86_64"/>
+      <php xdebug="" version="7.2.7-0ubuntu0.18.04.2" ini="/etc/php/7.2/cli/php.ini" extensions="Core, date, libxml, openssl, pcre, zlib, filter, hash, pcntl, Reflection, SPL, sodium, session, standard, json, xhprof, mysqlnd, PDO, xml, calendar, ctype, curl, dom, mbstring, fileinfo, ftp, gettext, iconv, mongodb, exif, mysqli, pdo_mysql, pdo_sqlite, Phar, posix, readline, shmop, SimpleXML, sockets, sqlite3, sysvmsg, sysvsem, sysvshm, tokenizer, wddx, xmlreader, xmlwriter, xsl, Zend OPcache"/>
+      <opcache extension_loaded="1" enabled=""/>
+      <unix-sysload l1="0.13" l5="0.14" l15="0.09"/>
+      <vcs system="git" branch="abhmalat_dev" version="97eee8149b5a07de08753727f987feaa0c8a2e78"/>
+      <baseline nothing="0.010967254638672" md5="0.18405914306641" file_rw="2.1059513092041"/>
+    </env>
+    <benchmark class="\benchmarks_redcap_etl">
+      <subject name="bench_main">
+        <executor name="microtime">
+          <parameter name="php_config" type="collection"/>
+          <parameter name="executor" value="microtime"/>
+        </executor>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating.ini"/>
+          <iteration time-net="54110511" mem-peak="6360448" mem-real="8388608" mem-final="2441488" comp-z-value="0" comp-deviation="0"/>
+          <stats max="18036837" mean="18036837" min="18036837" mode="18036837" rstdev="0" stdev="0" sum="18036837" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating.ini"/>
+          <iteration time-net="50414352" mem-peak="20147336" mem-real="27262976" mem-final="2466064" comp-z-value="0" comp-deviation="0"/>
+          <stats max="16804784" mean="16804784" min="16804784" mode="16804784" rstdev="0" stdev="0" sum="16804784" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating.ini"/>
+          <iteration time-net="50107845" mem-peak="27367744" mem-real="27262976" mem-final="2498832" comp-z-value="0" comp-deviation="0"/>
+          <stats max="16702615" mean="16702615" min="16702615" mode="16702615" rstdev="0" stdev="0" sum="16702615" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating.ini"/>
+          <iteration time-net="47941657" mem-peak="27392264" mem-real="29360128" mem-final="2498832" comp-z-value="0" comp-deviation="0"/>
+          <stats max="15980552.333333" mean="15980552.333333" min="15980552.333333" mode="15980552.333333" rstdev="0" stdev="0" sum="15980552.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating.ini"/>
+          <iteration time-net="46553779" mem-peak="27392264" mem-real="29360128" mem-final="2498832" comp-z-value="0" comp-deviation="0"/>
+          <stats max="15517926.333333" mean="15517926.333333" min="15517926.333333" mode="15517926.333333" rstdev="0" stdev="0" sum="15517926.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating.ini"/>
+          <iteration time-net="46510832" mem-peak="27392264" mem-real="29360128" mem-final="2498832" comp-z-value="0" comp-deviation="0"/>
+          <stats max="15503610.666667" mean="15503610.666667" min="15503610.666667" mode="15503610.666667" rstdev="0" stdev="0" sum="15503610.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_2.ini"/>
+          <iteration time-net="258059129" mem-peak="6855368" mem-real="10485760" mem-final="2441496" comp-z-value="0" comp-deviation="0"/>
+          <stats max="86019709.666667" mean="86019709.666667" min="86019709.666667" mode="86019709.666667" rstdev="0" stdev="0" sum="86019709.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_2.ini"/>
+          <iteration time-net="242369086" mem-peak="20462424" mem-real="25165824" mem-final="2466072" comp-z-value="0" comp-deviation="0"/>
+          <stats max="80789695.333333" mean="80789695.333333" min="80789695.333333" mode="80789695.333333" rstdev="0" stdev="0" sum="80789695.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_2.ini"/>
+          <iteration time-net="237819437" mem-peak="37599104" mem-real="41943040" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="79273145.666667" mean="79273145.666667" min="79273145.666667" mode="79273145.666667" rstdev="0" stdev="0" sum="79273145.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_2.ini"/>
+          <iteration time-net="173268272" mem-peak="37639432" mem-real="44040192" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="57756090.666667" mean="57756090.666667" min="57756090.666667" mode="57756090.666667" rstdev="0" stdev="0" sum="57756090.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_2.ini"/>
+          <iteration time-net="135458645" mem-peak="37602936" mem-real="41943040" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="45152881.666667" mean="45152881.666667" min="45152881.666667" mode="45152881.666667" rstdev="0" stdev="0" sum="45152881.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_2.ini"/>
+          <iteration time-net="66051313" mem-peak="27747208" mem-real="35651584" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="22017104.333333" mean="22017104.333333" min="22017104.333333" mode="22017104.333333" rstdev="0" stdev="0" sum="22017104.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_3.ini"/>
+          <iteration time-net="508945043" mem-peak="9979496" mem-real="12582912" mem-final="2441496" comp-z-value="0" comp-deviation="0"/>
+          <stats max="169648347.66667" mean="169648347.66667" min="169648347.66667" mode="169648347.66667" rstdev="0" stdev="0" sum="169648347.66667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_3.ini"/>
+          <iteration time-net="472652178" mem-peak="20861984" mem-real="33554432" mem-final="2466072" comp-z-value="0" comp-deviation="0"/>
+          <stats max="157550726" mean="157550726" min="157550726" mode="157550726" rstdev="0" stdev="0" sum="157550726" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_3.ini"/>
+          <iteration time-net="461351929" mem-peak="37973440" mem-real="46137344" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="153783976.33333" mean="153783976.33333" min="153783976.33333" mode="153783976.33333" rstdev="0" stdev="0" sum="153783976.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_3.ini"/>
+          <iteration time-net="319459792" mem-peak="38075184" mem-real="46137344" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="106486597.33333" mean="106486597.33333" min="106486597.33333" mode="106486597.33333" rstdev="0" stdev="0" sum="106486597.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_3.ini"/>
+          <iteration time-net="258810600" mem-peak="37951496" mem-real="46137344" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="86270200" mean="86270200" min="86270200" mode="86270200" rstdev="0" stdev="0" sum="86270200" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_3.ini"/>
+          <iteration time-net="130519732" mem-peak="38135792" mem-real="46137344" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="43506577.333333" mean="43506577.333333" min="43506577.333333" mode="43506577.333333" rstdev="0" stdev="0" sum="43506577.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_4.ini"/>
+          <iteration time-net="2515561180" mem-peak="36801744" mem-real="35651584" mem-final="2441496" comp-z-value="0" comp-deviation="0"/>
+          <stats max="838520393.33333" mean="838520393.33333" min="838520393.33333" mode="838520393.33333" rstdev="0" stdev="0" sum="838520393.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_4.ini"/>
+          <iteration time-net="2381256408" mem-peak="36796104" mem-real="52428800" mem-final="2466072" comp-z-value="0" comp-deviation="0"/>
+          <stats max="793752136" mean="793752136" min="793752136" mode="793752136" rstdev="0" stdev="0" sum="793752136" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_4.ini"/>
+          <iteration time-net="2410451941" mem-peak="40945912" mem-real="67108864" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="803483980.33333" mean="803483980.33333" min="803483980.33333" mode="803483980.33333" rstdev="0" stdev="0" sum="803483980.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_4.ini"/>
+          <iteration time-net="1598864270" mem-peak="41460360" mem-real="65011712" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="532954756.66667" mean="532954756.66667" min="532954756.66667" mode="532954756.66667" rstdev="0" stdev="0" sum="532954756.66667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_4.ini"/>
+          <iteration time-net="1262138726" mem-peak="40831688" mem-real="69206016" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="420712908.66667" mean="420712908.66667" min="420712908.66667" mode="420712908.66667" rstdev="0" stdev="0" sum="420712908.66667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_4.ini"/>
+          <iteration time-net="559311804" mem-peak="41748168" mem-real="65011712" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="186437268" mean="186437268" min="186437268" mode="186437268" rstdev="0" stdev="0" sum="186437268" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_5.ini"/>
+          <iteration time-net="4808317754" mem-peak="70874888" mem-real="65011712" mem-final="2441496" comp-z-value="0" comp-deviation="0"/>
+          <stats max="1602772584.6667" mean="1602772584.6667" min="1602772584.6667" mode="1602772584.6667" rstdev="0" stdev="0" sum="1602772584.6667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_5.ini"/>
+          <iteration time-net="4396236415" mem-peak="70839008" mem-real="73400320" mem-final="2466072" comp-z-value="0" comp-deviation="0"/>
+          <stats max="1465412138.3333" mean="1465412138.3333" min="1465412138.3333" mode="1465412138.3333" rstdev="0" stdev="0" sum="1465412138.3333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_5.ini"/>
+          <iteration time-net="4339018305" mem-peak="70871776" mem-real="90177536" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="1446339435" mean="1446339435" min="1446339435" mode="1446339435" rstdev="0" stdev="0" sum="1446339435" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_5.ini"/>
+          <iteration time-net="2916787593" mem-peak="70871776" mem-real="90177536" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="972262531" mean="972262531" min="972262531" mode="972262531" rstdev="0" stdev="0" sum="972262531" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_5.ini"/>
+          <iteration time-net="2192839670" mem-peak="70871776" mem-real="90177536" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="730946556.66667" mean="730946556.66667" min="730946556.66667" mode="730946556.66667" rstdev="0" stdev="0" sum="730946556.66667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicNonRepeating_5.ini"/>
+          <iteration time-net="892686747" mem-peak="70871776" mem-real="92274688" mem-final="2498840" comp-z-value="0" comp-deviation="0"/>
+          <stats max="297562249" mean="297562249" min="297562249" mode="297562249" rstdev="0" stdev="0" sum="297562249" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicRepeating.ini"/>
+          <iteration time-net="31603275" mem-peak="42644408" mem-real="48234496" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10534425" mean="10534425" min="10534425" mode="10534425" rstdev="0" stdev="0" sum="10534425" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicRepeating.ini"/>
+          <iteration time-net="31262799" mem-peak="48259312" mem-real="44040192" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10420933" mean="10420933" min="10420933" mode="10420933" rstdev="0" stdev="0" sum="10420933" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicRepeating.ini"/>
+          <iteration time-net="31448055" mem-peak="48259312" mem-real="44040192" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10482685" mean="10482685" min="10482685" mode="10482685" rstdev="0" stdev="0" sum="10482685" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicRepeating.ini"/>
+          <iteration time-net="31268089" mem-peak="48259312" mem-real="44040192" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10422696.333333" mean="10422696.333333" min="10422696.333333" mode="10422696.333333" rstdev="0" stdev="0" sum="10422696.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicRepeating.ini"/>
+          <iteration time-net="30837124" mem-peak="48259312" mem-real="44040192" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10279041.333333" mean="10279041.333333" min="10279041.333333" mode="10279041.333333" rstdev="0" stdev="0" sum="10279041.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicRepeating.ini"/>
+          <iteration time-net="30936617" mem-peak="48259312" mem-real="44040192" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10312205.666667" mean="10312205.666667" min="10312205.666667" mode="10312205.666667" rstdev="0" stdev="0" sum="10312205.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicRepeating_2.ini"/>
+          <iteration time-net="146297610" mem-peak="68803976" mem-real="73400320" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="48765870" mean="48765870" min="48765870" mode="48765870" rstdev="0" stdev="0" sum="48765870" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicRepeating_2.ini"/>
+          <iteration time-net="141753015" mem-peak="201772360" mem-real="199229440" mem-final="2686024" comp-z-value="0" comp-deviation="0"/>
+          <stats max="47251005" mean="47251005" min="47251005" mode="47251005" rstdev="0" stdev="0" sum="47251005" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_2.ini"/>
+          <iteration time-net="142265928" mem-peak="229579128" mem-real="205520896" mem-final="2686024" comp-z-value="0" comp-deviation="0"/>
+          <stats max="47421976" mean="47421976" min="47421976" mode="47421976" rstdev="0" stdev="0" sum="47421976" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicRepeating_2.ini"/>
+          <iteration time-net="140927679" mem-peak="229579128" mem-real="205520896" mem-final="2686024" comp-z-value="0" comp-deviation="0"/>
+          <stats max="46975893" mean="46975893" min="46975893" mode="46975893" rstdev="0" stdev="0" sum="46975893" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_2.ini"/>
+          <iteration time-net="141206778" mem-peak="229579128" mem-real="205520896" mem-final="2686024" comp-z-value="0" comp-deviation="0"/>
+          <stats max="47068926" mean="47068926" min="47068926" mode="47068926" rstdev="0" stdev="0" sum="47068926" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_2.ini"/>
+          <iteration time-net="140172397" mem-peak="229579128" mem-real="205520896" mem-final="2686024" comp-z-value="0" comp-deviation="0"/>
+          <stats max="46724132.333333" mean="46724132.333333" min="46724132.333333" mode="46724132.333333" rstdev="0" stdev="0" sum="46724132.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicRepeating_3.ini"/>
+          <iteration time-net="285637086" mem-peak="68867608" mem-real="73400320" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="95212362" mean="95212362" min="95212362" mode="95212362" rstdev="0" stdev="0" sum="95212362" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicRepeating_3.ini"/>
+          <iteration time-net="293565495" mem-peak="331975472" mem-real="335544320" mem-final="2686024" comp-z-value="0" comp-deviation="0"/>
+          <stats max="97855165" mean="97855165" min="97855165" mode="97855165" rstdev="0" stdev="0" sum="97855165" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_3.ini"/>
+          <iteration time-net="284612555" mem-peak="399057680" mem-real="394264576" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="94870851.666667" mean="94870851.666667" min="94870851.666667" mode="94870851.666667" rstdev="0" stdev="0" sum="94870851.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicRepeating_3.ini"/>
+          <iteration time-net="249159020" mem-peak="399078104" mem-real="354418688" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="83053006.666667" mean="83053006.666667" min="83053006.666667" mode="83053006.666667" rstdev="0" stdev="0" sum="83053006.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_3.ini"/>
+          <iteration time-net="249487283" mem-peak="399078104" mem-real="354418688" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="83162427.666667" mean="83162427.666667" min="83162427.666667" mode="83162427.666667" rstdev="0" stdev="0" sum="83162427.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_3.ini"/>
+          <iteration time-net="248046841" mem-peak="399078104" mem-real="354418688" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="82682280.333333" mean="82682280.333333" min="82682280.333333" mode="82682280.333333" rstdev="0" stdev="0" sum="82682280.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicRepeating_4.ini"/>
+          <iteration time-net="1434549099" mem-peak="69393624" mem-real="75497472" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="478183033" mean="478183033" min="478183033" mode="478183033" rstdev="0" stdev="0" sum="478183033" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicRepeating_4.ini"/>
+          <iteration time-net="1470229757" mem-peak="332310992" mem-real="337641472" mem-final="2686024" comp-z-value="0" comp-deviation="0"/>
+          <stats max="490076585.66667" mean="490076585.66667" min="490076585.66667" mode="490076585.66667" rstdev="0" stdev="0" sum="490076585.66667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_4.ini"/>
+          <iteration time-net="1453676251" mem-peak="658645616" mem-real="660602880" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="484558750.33333" mean="484558750.33333" min="484558750.33333" mode="484558750.33333" rstdev="0" stdev="0" sum="484558750.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicRepeating_4.ini"/>
+          <iteration time-net="1012145020" mem-peak="658701912" mem-real="656408576" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="337381673.33333" mean="337381673.33333" min="337381673.33333" mode="337381673.33333" rstdev="0" stdev="0" sum="337381673.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_4.ini"/>
+          <iteration time-net="757870051" mem-peak="658633400" mem-real="660602880" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="252623350.33333" mean="252623350.33333" min="252623350.33333" mode="252623350.33333" rstdev="0" stdev="0" sum="252623350.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_4.ini"/>
+          <iteration time-net="429753723" mem-peak="553778752" mem-real="570425344" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="143251241" mean="143251241" min="143251241" mode="143251241" rstdev="0" stdev="0" sum="143251241" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsClassicRepeating_5.ini"/>
+          <iteration time-net="2869395695" mem-peak="70055928" mem-real="75497472" mem-final="2587720" comp-z-value="0" comp-deviation="0"/>
+          <stats max="956465231.66667" mean="956465231.66667" min="956465231.66667" mode="956465231.66667" rstdev="0" stdev="0" sum="956465231.66667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsClassicRepeating_5.ini"/>
+          <iteration time-net="2962988907" mem-peak="332739304" mem-real="341835776" mem-final="2686024" comp-z-value="0" comp-deviation="0"/>
+          <stats max="987662969" mean="987662969" min="987662969" mode="987662969" rstdev="0" stdev="0" sum="987662969" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_5.ini"/>
+          <iteration time-net="3026310969" mem-peak="659058648" mem-real="666894336" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="1008770323" mean="1008770323" min="1008770323" mode="1008770323" rstdev="0" stdev="0" sum="1008770323" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsClassicRepeating_5.ini"/>
+          <iteration time-net="2221287728" mem-peak="659155592" mem-real="664797184" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="740429242.66667" mean="740429242.66667" min="740429242.66667" mode="740429242.66667" rstdev="0" stdev="0" sum="740429242.66667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_5.ini"/>
+          <iteration time-net="1596396847" mem-peak="659046760" mem-real="662700032" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="532132282.33333" mean="532132282.33333" min="532132282.33333" mode="532132282.33333" rstdev="0" stdev="0" sum="532132282.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsClassicRepeating_5.ini"/>
+          <iteration time-net="814759374" mem-peak="659226592" mem-real="662700032" mem-final="2817096" comp-z-value="0" comp-deviation="0"/>
+          <stats max="271586458" mean="271586458" min="271586458" mode="271586458" rstdev="0" stdev="0" sum="271586458" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsRepeatingEvents.ini"/>
+          <iteration time-net="32072482" mem-peak="27514912" mem-real="29360128" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10690827.333333" mean="10690827.333333" min="10690827.333333" mode="10690827.333333" rstdev="0" stdev="0" sum="10690827.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents.ini"/>
+          <iteration time-net="31192045" mem-peak="31741144" mem-real="31457280" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10397348.333333" mean="10397348.333333" min="10397348.333333" mode="10397348.333333" rstdev="0" stdev="0" sum="10397348.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents.ini"/>
+          <iteration time-net="31736648" mem-peak="31741144" mem-real="31457280" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10578882.666667" mean="10578882.666667" min="10578882.666667" mode="10578882.666667" rstdev="0" stdev="0" sum="10578882.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents.ini"/>
+          <iteration time-net="31434039" mem-peak="31741144" mem-real="31457280" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10478013" mean="10478013" min="10478013" mode="10478013" rstdev="0" stdev="0" sum="10478013" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents.ini"/>
+          <iteration time-net="32491346" mem-peak="31741144" mem-real="31457280" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10830448.666667" mean="10830448.666667" min="10830448.666667" mode="10830448.666667" rstdev="0" stdev="0" sum="10830448.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents.ini"/>
+          <iteration time-net="31316714" mem-peak="31741144" mem-real="31457280" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="10438904.666667" mean="10438904.666667" min="10438904.666667" mode="10438904.666667" rstdev="0" stdev="0" sum="10438904.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_2.ini"/>
+          <iteration time-net="146290189" mem-peak="40570384" mem-real="44040192" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="48763396.333333" mean="48763396.333333" min="48763396.333333" mode="48763396.333333" rstdev="0" stdev="0" sum="48763396.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_2.ini"/>
+          <iteration time-net="141877717" mem-peak="126113376" mem-real="127926272" mem-final="2686864" comp-z-value="0" comp-deviation="0"/>
+          <stats max="47292572.333333" mean="47292572.333333" min="47292572.333333" mode="47292572.333333" rstdev="0" stdev="0" sum="47292572.333333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_2.ini"/>
+          <iteration time-net="140556435" mem-peak="147006384" mem-real="134217728" mem-final="2686864" comp-z-value="0" comp-deviation="0"/>
+          <stats max="46852145" mean="46852145" min="46852145" mode="46852145" rstdev="0" stdev="0" sum="46852145" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_2.ini"/>
+          <iteration time-net="144965297" mem-peak="147006384" mem-real="134217728" mem-final="2686864" comp-z-value="0" comp-deviation="0"/>
+          <stats max="48321765.666667" mean="48321765.666667" min="48321765.666667" mode="48321765.666667" rstdev="0" stdev="0" sum="48321765.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_2.ini"/>
+          <iteration time-net="143092212" mem-peak="147006384" mem-real="134217728" mem-final="2686864" comp-z-value="0" comp-deviation="0"/>
+          <stats max="47697404" mean="47697404" min="47697404" mode="47697404" rstdev="0" stdev="0" sum="47697404" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_2.ini"/>
+          <iteration time-net="141176738" mem-peak="147006384" mem-real="134217728" mem-final="2686864" comp-z-value="0" comp-deviation="0"/>
+          <stats max="47058912.666667" mean="47058912.666667" min="47058912.666667" mode="47058912.666667" rstdev="0" stdev="0" sum="47058912.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_3.ini"/>
+          <iteration time-net="286980678" mem-peak="40639872" mem-real="46137344" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="95660226" mean="95660226" min="95660226" mode="95660226" rstdev="0" stdev="0" sum="95660226" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_3.ini"/>
+          <iteration time-net="289149771" mem-peak="190866264" mem-real="205520896" mem-final="2686864" comp-z-value="0" comp-deviation="0"/>
+          <stats max="96383257" mean="96383257" min="96383257" mode="96383257" rstdev="0" stdev="0" sum="96383257" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_3.ini"/>
+          <iteration time-net="280305855" mem-peak="248348704" mem-real="255852544" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="93435285" mean="93435285" min="93435285" mode="93435285" rstdev="0" stdev="0" sum="93435285" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_3.ini"/>
+          <iteration time-net="238147464" mem-peak="248369128" mem-real="222298112" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="79382488" mean="79382488" min="79382488" mode="79382488" rstdev="0" stdev="0" sum="79382488" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_3.ini"/>
+          <iteration time-net="238194696" mem-peak="248369128" mem-real="222298112" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="79398232" mean="79398232" min="79398232" mode="79398232" rstdev="0" stdev="0" sum="79398232" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_3.ini"/>
+          <iteration time-net="236770622" mem-peak="248369128" mem-real="222298112" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="78923540.666667" mean="78923540.666667" min="78923540.666667" mode="78923540.666667" rstdev="0" stdev="0" sum="78923540.666667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_4.ini"/>
+          <iteration time-net="1417386997" mem-peak="41181080" mem-real="48234496" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="472462332.33333" mean="472462332.33333" min="472462332.33333" mode="472462332.33333" rstdev="0" stdev="0" sum="472462332.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_4.ini"/>
+          <iteration time-net="1439645167" mem-peak="191215216" mem-real="211812352" mem-final="2686864" comp-z-value="0" comp-deviation="0"/>
+          <stats max="479881722.33333" mean="479881722.33333" min="479881722.33333" mode="479881722.33333" rstdev="0" stdev="0" sum="479881722.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_4.ini"/>
+          <iteration time-net="1449778179" mem-peak="377558336" mem-real="400556032" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="483259393" mean="483259393" min="483259393" mode="483259393" rstdev="0" stdev="0" sum="483259393" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_4.ini"/>
+          <iteration time-net="988859363" mem-peak="377609072" mem-real="402653184" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="329619787.66667" mean="329619787.66667" min="329619787.66667" mode="329619787.66667" rstdev="0" stdev="0" sum="329619787.66667" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_4.ini"/>
+          <iteration time-net="733699768" mem-peak="377537888" mem-real="400556032" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="244566589.33333" mean="244566589.33333" min="244566589.33333" mode="244566589.33333" rstdev="0" stdev="0" sum="244566589.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_4.ini"/>
+          <iteration time-net="458211663" mem-peak="353255480" mem-real="379584512" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="152737221" mean="152737221" min="152737221" mode="152737221" rstdev="0" stdev="0" sum="152737221" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="100"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_5.ini"/>
+          <iteration time-net="2825030983" mem-peak="41856224" mem-real="56623104" mem-final="2588560" comp-z-value="0" comp-deviation="0"/>
+          <stats max="941676994.33333" mean="941676994.33333" min="941676994.33333" mode="941676994.33333" rstdev="0" stdev="0" sum="941676994.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_5.ini"/>
+          <iteration time-net="2869788784" mem-peak="191646696" mem-real="209715200" mem-final="2686864" comp-z-value="0" comp-deviation="0"/>
+          <stats max="956596261.33333" mean="956596261.33333" min="956596261.33333" mode="956596261.33333" rstdev="0" stdev="0" sum="956596261.33333" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_5.ini"/>
+          <iteration time-net="2898151896" mem-peak="377972744" mem-real="406847488" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="966050632" mean="966050632" min="966050632" mode="966050632" rstdev="0" stdev="0" sum="966050632" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="1500"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_5.ini"/>
+          <iteration time-net="2173953843" mem-peak="378087616" mem-real="404750336" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="724651281" mean="724651281" min="724651281" mode="724651281" rstdev="0" stdev="0" sum="724651281" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="2000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_5.ini"/>
+          <iteration time-net="1650976146" mem-peak="377948368" mem-real="402653184" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="550325382" mean="550325382" min="550325382" mode="550325382" rstdev="0" stdev="0" sum="550325382" variance="0"/>
+        </variant>
+        <variant sleep="10000000" output-time-unit="seconds" output-time-precision="3" output-mode="time" revs="3" warmup="0" retry-threshold="">
+          <parameter name="batchSize" value="5000"/>
+          <parameter name="configFile" value="metricsRepeatingEvents_5.ini"/>
+          <iteration time-net="821657958" mem-peak="378126600" mem-real="404750336" mem-final="2817936" comp-z-value="0" comp-deviation="0"/>
+          <stats max="273885986" mean="273885986" min="273885986" mode="273885986" rstdev="0" stdev="0" sum="273885986" variance="0"/>
+        </variant>
+      </subject>
+    </benchmark>
+    <result key="time" class="PhpBench\Model\Result\TimeResult"/>
+    <result key="mem" class="PhpBench\Model\Result\MemoryResult"/>
+    <result key="comp" class="PhpBench\Model\Result\ComputedResult"/>
+  </suite>
+</phpbench>

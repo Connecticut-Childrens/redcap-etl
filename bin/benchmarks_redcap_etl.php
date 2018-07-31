@@ -58,13 +58,26 @@ class benchmarks_redcap_etl
      */
     public function configFiles() {
         yield ['configFile' => 'metricsClassicNonRepeating.ini'];
-        yield ['configFile' => 'metricsClassicRepeating.ini'];
+        yield ['configFile' => 'metricsClassicNonRepeating_2.ini'];
+        yield ['configFile' => 'metricsClassicNonRepeating_3.ini'];
+        yield ['configFile' => 'metricsClassicNonRepeating_4.ini'];
+        yield ['configFile' => 'metricsClassicNonRepeating_5.ini'];
+/*        yield ['configFile' => 'metricsClassicRepeating.ini'];
+        yield ['configFile' => 'metricsClassicRepeating_2.ini'];
+        yield ['configFile' => 'metricsClassicRepeating_3.ini'];
+        yield ['configFile' => 'metricsClassicRepeating_4.ini'];
+        yield ['configFile' => 'metricsClassicRepeating_5.ini'];
         yield ['configFile' => 'metricsRepeatingEvents.ini'];
+        yield ['configFile' => 'metricsRepeatingEvents_2.ini'];
+        yield ['configFile' => 'metricsRepeatingEvents_3.ini'];
+        yield ['configFile' => 'metricsRepeatingEvents_4.ini'];
+        yield ['configFile' => 'metricsRepeatingEvents_5.ini'];
+*/
     }
 
     /**
-     * @Revs(1)
-     * @Iterations(1)
+     * @Revs(5)
+     * @Iterations(5)
      * @ParamProviders({"batchSizes", "configFiles"})
      * @Sleep(10000000)
      */
