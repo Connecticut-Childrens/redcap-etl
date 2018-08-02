@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4689242-d185-4b18-855d-07afedaceeb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmarks/jmeter_error.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmarks/jmeter_results.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/benchmarks_redcap_etl.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/benchmarks_redcap_etl.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,32 +19,35 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ini" value="16" />
+          <entry key="ini" value="48" />
           <entry key="php" value="4" />
           <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Ini" value="16" />
+          <entry key="Ini" value="48" />
           <entry key="PHP" value="4" />
           <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="15" />
+          <entry key="ini" value="30" />
+          <entry key="php" value="26" />
           <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="15" />
+          <entry key="Ini" value="30" />
+          <entry key="PHP" value="26" />
           <entry key="PLAIN_TEXT" value="74" />
         </counts>
       </usages-collector>
@@ -60,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/benchmarks_redcap_etl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="70" column="63" lean-forward="true" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+            <state relative-caret-position="328">
+              <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -81,7 +79,11 @@
       <find>new Table(</find>
       <find>new</find>
       <find>new Loo</find>
+      <find>metricsRepeatingEvents</find>
     </findStrings>
+    <replaceStrings>
+      <replace>R</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -98,21 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/unit/Schema/TableTest.php" />
-        <option value="$PROJECT_DIR$/config/jim_rules" />
-        <option value="$PROJECT_DIR$/docs/TransformationRulesGuide.md" />
-        <option value="$PROJECT_DIR$/docs/ExampleClassic.md" />
-        <option value="$PROJECT_DIR$/docs/ExampleLongitudinal.md" />
-        <option value="$PROJECT_DIR$/src/Rules/TableRule.php" />
-        <option value="$PROJECT_DIR$/src/Rules/Rule.php" />
-        <option value="$PROJECT_DIR$/src/Schema/RowsType.php" />
-        <option value="$PROJECT_DIR$/src/RulesParser.php" />
-        <option value="$PROJECT_DIR$/src/Schema/Field.php" />
-        <option value="$PROJECT_DIR$/src/Schema/Schema.php" />
-        <option value="$PROJECT_DIR$/config/ri_classic_rules" />
-        <option value="$PROJECT_DIR$/src/SchemaGenerator.php" />
-        <option value="$PROJECT_DIR$/config/longitudinal_rules" />
-        <option value="$PROJECT_DIR$/src/RedCapEtl.php" />
         <option value="$PROJECT_DIR$/src/LookupTable.php" />
         <option value="$PROJECT_DIR$/config/repeating_rules" />
         <option value="$PROJECT_DIR$/src/Schema/Table.php" />
@@ -149,6 +136,21 @@
         <option value="$PROJECT_DIR$/config/rules/cnr4_rules.txt" />
         <option value="$PROJECT_DIR$/config/rules/cnr5_rules.txt" />
         <option value="$PROJECT_DIR$/bin/benchmarks_redcap_etl.php" />
+        <option value="$PROJECT_DIR$/config/CNR_1.ini" />
+        <option value="$PROJECT_DIR$/config/CNR_2.ini" />
+        <option value="$PROJECT_DIR$/config/CNR_3.ini" />
+        <option value="$PROJECT_DIR$/config/CNR_4.ini" />
+        <option value="$PROJECT_DIR$/config/CNR_5.ini" />
+        <option value="$PROJECT_DIR$/config/CR_5.ini" />
+        <option value="$PROJECT_DIR$/config/CR_4.ini" />
+        <option value="$PROJECT_DIR$/config/CR_3.ini" />
+        <option value="$PROJECT_DIR$/config/CR_2.ini" />
+        <option value="$PROJECT_DIR$/config/CR_1.ini" />
+        <option value="$PROJECT_DIR$/config/R_5.ini" />
+        <option value="$PROJECT_DIR$/config/R_4.ini" />
+        <option value="$PROJECT_DIR$/config/R_3.ini" />
+        <option value="$PROJECT_DIR$/config/R_2.ini" />
+        <option value="$PROJECT_DIR$/config/R_1.ini" />
       </list>
     </option>
   </component>
@@ -246,11 +248,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="262" />
     <option name="y" value="75" />
-    <option name="width" value="1352" />
-    <option name="height" value="738" />
+    <option name="width" value="1528" />
+    <option name="height" value="888" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -260,33 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="redcap-etl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redcap-etl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redcap-etl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redcap-etl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="rules" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -303,6 +278,27 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="redcap-etl" type="cbb8eebc:String" user="redcap-etl" />
               <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="redcap-etl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redcap-etl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redcap-etl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redcap-etl" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -447,6 +443,7 @@
       <workItem from="1532614836382" duration="685000" />
       <workItem from="1532642119914" duration="6535000" />
       <workItem from="1532698252089" duration="8438000" />
+      <workItem from="1533057850206" duration="4680000" />
     </task>
     <task id="LOCAL-00001" summary="For EVENTS rowtype, create row only if redcap_event_name exists, and redcap_repeat_instrument and redcap_repeat_instance do not exist in the row">
       <created>1527184833743</created>
@@ -592,12 +589,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287106000" />
+    <option name="totallyTimeSpent" value="291786000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="262" y="75" width="1352" height="738" extended-state="0" />
+    <frame x="262" y="75" width="1528" height="888" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.237366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2091768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -613,7 +611,7 @@
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24961714" />
       <window_info anchor="right" x="626" y="320" width="776" height="422" id="Debug" order="4" sideWeight="0.5798212" weight="0.2642575" />
       <window_info anchor="right" id="Run" order="5" sideWeight="0.4201788" side_tool="true" weight="0.32497492" />
       <window_info anchor="right" id="Event Log" order="6" sideWeight="0.610374" side_tool="true" weight="0.2645414" />
@@ -796,103 +794,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/redcap_det_handler.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpbench.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/repeating.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/redcap_etl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfigProperties.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/MysqlDbConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/rr_rules">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/jim.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/jim_rules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/rules_repeatingEvents">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1854">
-          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies/phpcap/phpcap/src/RedCapProject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/upload_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpcap/phpcap/src/RedCapProject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -925,13 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/metricsClassicNonRepeating.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1122,10 +1016,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/metricsClassicNonRepeating.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CNR_1.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CNR_2.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CNR_3.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CNR_4.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CNR_5.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CR_5.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CR_4.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CR_3.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CR_2.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CR_1.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/R_5.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/R_4.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/R_3.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/R_2.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/R_1.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/benchmarks_redcap_etl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="70" column="63" lean-forward="true" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+        <state relative-caret-position="328">
+          <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
         </state>
       </provider>
     </entry>

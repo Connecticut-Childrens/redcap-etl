@@ -57,27 +57,27 @@ class benchmarks_redcap_etl
      * @return Generator
      */
     public function configFiles() {
-        yield ['configFile' => 'metricsClassicNonRepeating.ini'];
-        yield ['configFile' => 'metricsClassicNonRepeating_2.ini'];
-        yield ['configFile' => 'metricsClassicNonRepeating_3.ini'];
-        yield ['configFile' => 'metricsClassicNonRepeating_4.ini'];
-        yield ['configFile' => 'metricsClassicNonRepeating_5.ini'];
-/*        yield ['configFile' => 'metricsClassicRepeating.ini'];
-        yield ['configFile' => 'metricsClassicRepeating_2.ini'];
-        yield ['configFile' => 'metricsClassicRepeating_3.ini'];
-        yield ['configFile' => 'metricsClassicRepeating_4.ini'];
-        yield ['configFile' => 'metricsClassicRepeating_5.ini'];
-        yield ['configFile' => 'metricsRepeatingEvents.ini'];
-        yield ['configFile' => 'metricsRepeatingEvents_2.ini'];
-        yield ['configFile' => 'metricsRepeatingEvents_3.ini'];
-        yield ['configFile' => 'metricsRepeatingEvents_4.ini'];
-        yield ['configFile' => 'metricsRepeatingEvents_5.ini'];
-*/
+        yield ['configFile' => 'CNR_1.ini'];
+        yield ['configFile' => 'CNR_2.ini'];
+        yield ['configFile' => 'CNR_3.ini'];
+        yield ['configFile' => 'CNR_4.ini'];
+        yield ['configFile' => 'CNR_5.ini'];
+        yield ['configFile' => 'CR_1.ini'];
+        yield ['configFile' => 'CR_2.ini'];
+        yield ['configFile' => 'CR_3.ini'];
+        yield ['configFile' => 'CR_4.ini'];
+        yield ['configFile' => 'CR_5.ini'];
+        yield ['configFile' => 'R_1.ini'];
+        yield ['configFile' => 'R_2.ini'];
+        yield ['configFile' => 'R_3.ini'];
+        yield ['configFile' => 'R_4.ini'];
+        yield ['configFile' => 'R_5.ini'];
+
     }
 
     /**
-     * @Revs(5)
-     * @Iterations(5)
+     * @Revs(3)
+     * @Iterations(3)
      * @ParamProviders({"batchSizes", "configFiles"})
      * @Sleep(10000000)
      */
